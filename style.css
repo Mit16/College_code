@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(255, 8, 8);
+}
+body
+{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to right  ,aqua,blue);
+    background-size: cover;
+    
+}
+.contenor
+{
+    width: 40%;
+    height: 70%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 9px;
+    box-sizing: 0 0 10px black;
+    background-image:inherit; 
+    
+}
+form{
+    margin: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    
+}
+form input
+{
+    padding: 12px;
+    width: 70%;
+    height: 100%;
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+form input:focus
+{
+    border-bottom: 2.5px solid white;
+}
+form a
+{
+  
+    background-color: white;
+    border-radius: 12px;
+    border: none;
+    transition-duration: 0.1s;
+    color: black;
+    padding: 12px;
+    
+}
+form a:active
+{
+    scale: .9;
+    background-color: aquamarine;
+}
+.inner-container
+{
+    width: 90%;
+    height: 80%;
+    margin: 15px;
+    
+}
+.city-name
+{
+    text-align: center;
+    margin-top: 32px;
+    font-size: 2.7rem;
+    color: white;
+}
+.weather-condition
+{
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    
+}
+.weather-icon
+{ 
+    margin-top: 21px;
+    align-items:center;
+    text-align: center;
+}
+
+.temperature-container
+{
+    text-align: center;
+    height: calc(100%-80%);
+    margin-top: 21px;
+}
+.temperature
+{
+    
+    font-size: 2.7rem;
+}
+.minmax
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-transform:capitalize;
+    
+}
+.min
+{
+    
+    border-right: 1px solid white;
+    padding: 4px;
+}
+.max
+{
+    
+    border-left: 1px solid white;
+    padding: 4px;
+}
+
+
+
+
+
+
