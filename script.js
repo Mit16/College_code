@@ -29,8 +29,7 @@ submit.addEventListener('click',()=>{
 			 ${data.temperature}
 			 </div>
 			 <div id="minmax" class="minmax">
-			 <div class="min">Min:${data.forecast[1].temperature}</div>
-			 <div class="max">Max:${data.forecast[0].temperature}</div>
+			
 			 </div>
 			 </div>
 			 
@@ -38,7 +37,7 @@ submit.addEventListener('click',()=>{
 			 
 			 ))
 			 cityname.value='';
-			 document.body.style.backgroundImage=`url('${data.description}.jpg')`;
+			
 			 
 			})
 		
